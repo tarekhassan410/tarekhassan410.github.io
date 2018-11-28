@@ -14,15 +14,11 @@ body, html {
     width: 100%;
     height: 100%;
     position: absolute;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43ef07555334a21b6c7dcecc929070ce&auto=format&fit=crop&w=1491&q=80') no-repeat center center fixed;
+    /*filter: blur(1px);
+    -webkit-filter: blur(1px);*/
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eaebfb6af1f3014a7b193b43d1a96d7b&auto=format&fit=crop&w=1362&q=80') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-  .login {
-    z-index: 2;
-  }
-  
