@@ -16,7 +16,7 @@ body, html {
     position: absolute;
     /*filter: blur(1px);
     -webkit-filter: blur(1px);*/
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eaebfb6af1f3014a7b193b43d1a96d7b&auto=format&fit=crop&w=1362&q=80') no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eaebfb6af1f3014a7b193b43d1a96d7b&auto=format&fit=crop&w=1362&q=80') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
