@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hello</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://jenil.github.io/bulmaswatch/united/bulmaswatch.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   </head>
   <body>
-  <section class="section hero is-primary is-medium">
-    <div class="container">
-      <h1 class="title">
-        Welcoming
-      </h1>
-      <p class="subtitle">
-        My blog 
-      </p>
+    <div class="section hero is-info is-fullheight has-text-centered">
+      <div class="blured-background"></div>
+      <div class="hero-body login">
+        <div class="container"><p class="title is-size-2"></p></div>
+      </div>
     </div>
-    <div class='section is-mobile columns'>
-    <div class="column is-offset-3 is-3 ">
-    	Blog
-    </div>
-    <div class="column is-3">
-    	Blog
-    </div>
-    </div>
-  </section>
+
+    <script>
+      var typed = new Typed(".title", {
+        strings: [
+          "Hello I'm JavaScript developer^800",
+          "Hello I'm React js developer^800",
+          "Hello I'm Redux developer^800"
+        ],
+        typeSpeed: 40,
+        backSpeed: 15,
+        smartBackspace: true, // this is a default
+        loop: true
+      });
+    </script>
   </body>
 </html>
